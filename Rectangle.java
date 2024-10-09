@@ -35,7 +35,7 @@ public class Rectangle{
        * 
        * @return a string describing the rectangle
        */
-      @Override
+      
       public String toString() {
     return "Length: " + length + "\n" + 
            "Width: " + width + "\n" + 
