@@ -20,6 +20,16 @@ public class Passenger{
     public Boolean getIsFirstcalss(){
         return isFirstcalss;
     }
+      
+      @Override
+      
+    public String toString(){   
+        return "Passengr{"+
+                "name='" + name + '\'' +
+                ", passengerage=" + passengerage +
+                ", isFirstcalss=" + isFirstcalss +
+                '}';
+    }
 
 
 }
