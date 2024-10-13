@@ -26,4 +26,15 @@ public class Student{
      public Course getCourse(){
         return this.Course;
      }
+
+     @Override
+     
+     public String toString(){
+        return "REG NO: " +
+        this.regNo +
+        "\n FULL NAMES: " +
+        this.FullNames +
+        "\n COURSE: " +
+        this.Course.toString();
+     }
 }
