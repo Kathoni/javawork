@@ -13,7 +13,7 @@ public class StudentReg {
         System.out.println("=====CREATE OBJECT FIRST========");
         Course a = new Course("SCI220","Programming in Python");
         Course b = new Course("SCI303","Web Programming");
-        //System.out.println("================================");
+        System.out.println("================================");
         Student dann = new Student("G127/001/2023","Daniel Nzioki", a); //pass objectnew Course
         System.out.println(dann.printD());
         System.out.println("_____________________________");
