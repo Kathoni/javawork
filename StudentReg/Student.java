@@ -27,9 +27,8 @@ public class Student{
         return this.Course;
      }
 
-     @Override
-     
-     public String toString(){
+
+     public String printD(){
         return "REG NO: " +
         this.regNo +
         "\n FULL NAMES: " +
