@@ -7,7 +7,7 @@ public class Cruiseship{
     public Cruiseship(){
           passengers = new ArrayList<>();//innitializing the ArrayList
     }
-    /*This method adds the inputed passenger p
+    /*This method adds the inputed passenger P
     * to the ArrayList passengers
     */
    public void addPassanger(Passenger P) {
