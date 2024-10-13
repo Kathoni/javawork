@@ -23,4 +23,14 @@ public class Course{
 
         return this.UnitTitle;
     }
+    @Override
+    
+    public String toString () {
+        return "UNIT CODE: " + 
+        this.UnitCode +
+         "\n UNIT TITLE: " + 
+         this.UnitTitle +
+         "\n";
+
+    }
 }

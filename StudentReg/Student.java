@@ -14,10 +14,16 @@ public class Student{
      public void setFullNames(String newFullNames){
         this.FullNames = newFullNames;
      }
+     public void setCourse(Course newCourse){
+        this.Course = newCourse;
+     }
      public String getregNo(){
         return this.regNo;
      }
      public String getFullNames(){
         return this.FullNames;
+     }
+     public Course getCourse(){
+        return this.Course;
      }
 }
