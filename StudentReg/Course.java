@@ -9,4 +9,18 @@ public class Course{
         this.UnitTitle = UnitTitle;
 
     }
+    public void setUnitCode(String newUnitCode){
+        this.UnitCode = newUnitCode;
+    }
+    public void setUnitTitle(String newUnitTitle){
+        this.UnitTitle = newUnitTitle;
+    }
+    public String getUnitCode(){
+
+        return this.UnitCode;
+    }
+    public String getUnitTItle(){
+
+        return this.UnitTitle;
+    }
 }
